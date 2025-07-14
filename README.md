@@ -86,7 +86,7 @@ python main.py --model_type lstm
 ![预测值 vs 真实值](assets/prediction_vs_truth_lstm.png)
 *LSTM预测结果与实际值对比*
 ![预测值 vs 真实值](assets/prediction_vs_truth_transformer.png)
-*LSTM预测结果与实际值对比*
+*Transformer预测结果与实际值对比*
 ![增强Transformer性能](assets/prediction_vs_truth_new_transformer.png)
 *增强版Transformer预测结果展示精度提升*
 
