@@ -87,7 +87,7 @@ def train_model(model, train_loader, val_loader, scaler_y, epochs=10, lr=0.01, d
     plt.legend()
 
     plt.tight_layout()
-    plt.savefig(f'./ml/validation_metrics_{modelname}.png')
+    plt.savefig(f'./ml/assets/validation_metrics_{modelname}.png')
     plt.close()
 
     model.eval()
@@ -110,7 +110,7 @@ def train_model(model, train_loader, val_loader, scaler_y, epochs=10, lr=0.01, d
     plt.ylabel('Power Consumption')
     plt.legend()
     plt.grid(True)
-    plt.savefig(f'./ml/prediction_vs_truth_{modelname}.png')
+    plt.savefig(f'./ml/assets/prediction_vs_truth_{modelname}.png')
     plt.close()
 
 def evaluate(model, loader, scaler_y, device='cuda', mode='Val'):
