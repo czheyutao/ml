@@ -63,22 +63,22 @@ graph TD
 ### 训练命令示例
 1. 训练增强版Transformer（90天预测）：
 ```bash
-python main.py --model_type new_transformer
+python run.py --model_type new_transformer
 ```
 
 2. 训练增强版Transformer（365天长预测）：
 ```bash
-python main.py --model_type new_transformer --long_term
+python run.py --model_type new_transformer --long_term
 ```
 
 3. 训练原始Transformer：
 ```bash
-python main.py --model_type transformer
+python run.py --model_type transformer
 ```
 
 4. 训练LSTM基准模型：
 ```bash
-python main.py --model_type lstm
+python run.py --model_type lstm
 ```
 
 
@@ -100,7 +100,7 @@ python main.py --model_type lstm
 │   └── new_transformer.py   # 增强Transformer实现
 ├── power_dataset.py         # 数据加载与预处理
 ├── train_eval.py            # 训练与评估函数
-└── main.py                  # 主训练脚本
+└── run.py                  # 主训练脚本
 ```
 
 ## 依赖环境
